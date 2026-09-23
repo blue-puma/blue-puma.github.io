@@ -83,14 +83,14 @@ a {
 
 .profile-grid {
   display: grid;
-  grid-template-columns: 205px minmax(0, 1fr);
+  grid-template-columns: 220px minmax(0, 1fr);
   gap: 48px;
   align-items: center;
 }
 
 .profile-image-wrap {
-  width: 185px;
-  height: 215px;
+  width: 220px;
+  height: 310px;
   overflow: hidden;
   border-radius: 18px;
 }
@@ -100,8 +100,8 @@ a {
   height: 100%;
   display: block;
   object-fit: cover;
-  object-position: 50% 100%;
-  transform: scale(1.5);
+  object-position: 50% 0%;
+  transform: scale(1.4);
   transform-origin: center bottom;
   border-radius: 18px;
   border: 1px solid var(--line);
